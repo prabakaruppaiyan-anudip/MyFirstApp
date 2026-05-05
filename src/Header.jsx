@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 export default function Header()
 {
     return(
@@ -13,6 +14,10 @@ export default function Header()
                 </button>
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto py-0">
+                         <Link to="/" className="nav-item nav-link active">Home</Link>
+                         <Link to='/' className="nav-item nav-link">Aboutus</Link>
+                         <Link to='/' className="nav-item nav-link">Services</Link>
+                         <Link to='/' className="nav-item nav-link">Pricing</Link>
                         <a href="index.html" className="nav-item nav-link active">Home</a>
                         <a href="about.html" className="nav-item nav-link">About</a>
                         <a href="service.html" className="nav-item nav-link">Services</a>
