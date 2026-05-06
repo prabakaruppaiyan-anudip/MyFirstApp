@@ -20,6 +20,7 @@ export default function Header()
                          <Link to='/' className="nav-item nav-link active">Aboutus</Link>
                          <Link to='/' className="nav-item nav-link active">Services</Link>
                          <Link to='/itemform' className="nav-item nav-link active">Pricing</Link>
+                         <Link to='/statedemo' className="nav-item nav-link active" >State Demo</Link>
                         <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu border-0 rounded-0 m-0">

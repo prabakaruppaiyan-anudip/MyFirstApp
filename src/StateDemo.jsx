@@ -2,6 +2,7 @@ import {useState} from "react";
 export default function StateDemo()
  {
     const [msg, setMsg] = useState('');
+    const [name, setName]=useState('')
 
 function changevalue()
 {
@@ -19,6 +20,7 @@ return (
                 </p>
 
                 <input type="button" onClick={changevalue} value="Click" />
+                <input type="text" onChange={(e)=>setName(e.target.value)} /> {name}
 
             </div>
         </div>
