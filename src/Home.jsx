@@ -6,7 +6,7 @@ export default function Home()
        <div className="container-fluid py-5">
         <div ClassName="container">
         <h1> Home page of our application</h1>
-        <ChildHome name="Praba" desgn="Sr.Faculty" />
+        <ChildHome name="Praba K" desgn="Sr.Faculty" />
         </div></div>
         </>
     )

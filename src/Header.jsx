@@ -5,7 +5,7 @@ export default function Header()
      
     <div className="container-fluid nav-bar p-0">
         <div className="container-lg p-0">
-            <nav classNameName="navbar navbar-expand-lg bg-secondary navbar-dark">
+            <nav className="navbar navbar-expand-lg bg-secondary navbar-dark">
                 <a href="index.html" className="navbar-brand">
                     <h1 className="m-0 text-white display-4"><span className="text-primary">D</span>ot<span className="text-primary">C</span>om</h1>
                 </a>
@@ -15,13 +15,11 @@ export default function Header()
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto py-0">
                          <Link to="/" className="nav-item nav-link active">Home</Link>
+
+              
                          <Link to='/' className="nav-item nav-link">Aboutus</Link>
                          <Link to='/' className="nav-item nav-link">Services</Link>
-                         <Link to='/' className="nav-item nav-link">Pricing</Link>
-                        <a href="index.html" className="nav-item nav-link active">Home</a>
-                        <a href="about.html" className="nav-item nav-link">About</a>
-                        <a href="service.html" className="nav-item nav-link">Services</a>
-                        <a href="pricing.html" className="nav-item nav-link">Pricing</a>
+                         <Link to='/itemform' className="nav-item nav-link">Pricing</Link>
                         <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu border-0 rounded-0 m-0">
