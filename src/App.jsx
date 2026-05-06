@@ -7,7 +7,7 @@ import Home from './Home.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import ItemForm from './ItemForm.jsx'
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
 
